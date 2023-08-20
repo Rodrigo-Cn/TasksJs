@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tasks.css">
+</head>
+<body>
+    <div class="taskas-container">
+        <h1 id="title">Salve a sua tarefa</h1>
+        <form>
+            <input type="text" placeholder="Digite aqui sua tarefa" id="add-task">
+            <button id="add-btn" type="submit"><ion-icon name="add-outline"></ion-icon></button>
+        </form>
+        <div id="tasks-list-container">
+            <h2>Tarefas</h2>
+            <ul id="task-list">
+                <li class="task-box">
+                    <span id="title-box">Tarefa 1</span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon></button>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon></button>
+                </li>
+                <li class="task-box">
+                    <span id="title-box">Tarefa 2</span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon></button>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon></button>
+                </li>
+                <li class="task-box">
+                    <span id="title-box">Tarefa 3</span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon></button>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon></button>
+                </li>
+                <li class="task-box">
+                    <span id="title-box">Tarefa 4</span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon></button>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
