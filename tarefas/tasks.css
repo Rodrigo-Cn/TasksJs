@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right,red,black);
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
+#title{
+    text-decoration: underline;
+}
+#add-task
+{
+    margin-top: 30px;
+    height: 45px;
+    width: 450px;
+}
+#add-task:focus{
+    height: 50;
+    width: 455px;
+    box-shadow: 4px 4px 4px black;
+}
+#add-btn{
+    margin-top: 40px;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+}
+#add-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+#task-list
+{
+    list-style: none;
+}
+#task-list li
+{
+    position: relative;
+    text-align: left;
+    height: 50px;
+    margin-left: 325px;
+    background-color: white;
+    margin-right: 370px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 25px;
+}
+.doning-btn{
+    position: absolute;
+    margin-top: 10;
+    height: 40px;
+    cursor: pointer;
+    left: 430px;
+}
+.doning-btn:hover
+{
+    color: green;
+}
+.remove-btn{
+    position: absolute;
+    margin-top: 10;
+    height: 40px;
+    cursor: pointer;
+    left: 460px;
+}
+.remove-btn:hover{
+    color: red;
+}
+#title-box{
+    position: absolute;
+    top: 10px;
+}
+.hide
+{
+    display: none;
+}
